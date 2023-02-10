@@ -1,0 +1,252 @@
+@media(max-width: 1200px){
+    .nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main__box_cards{
+        grid-template-columns: repeat(2, 416px);
+        column-gap: 100px;
+        justify-content: center;
+    }
+
+    .header__item2_bg{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header__items{
+        grid-template-columns: repeat(2,450px);
+    }
+
+    .header__item3_bg{
+        padding-top: 40px;
+    }
+
+    .header__item1_bg{
+        padding-top: 30px;
+    }
+
+    .footer__box_number{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 992px){
+    .header__nav_list{
+        gap: 20px;
+    }
+
+    .header__nav_link{
+        gap: 20px;
+    }
+
+    .main__box_cards{
+        column-gap: 60px;
+    }
+
+    .header__item1_bg img{
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .header__item2_bg img{
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .header__item3_bg img{
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .header__items{
+        grid-template-columns: repeat(1, 410px);
+    }
+
+    .box__card img{
+        max-width: 160px;
+        width: 100%;
+    }
+
+    .box__card{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .main__box_cards{
+        justify-items: center;
+        grid-template-columns: repeat(2,300px);
+    }
+
+    .box__card_h2{
+        font-size: 17px;
+    }
+
+    .box__card_h2{
+        font-size: 17px;
+    }
+
+    .main__section_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__box_title{
+            padding-left: 0;
+    }
+
+    .footer__box{
+        gap: 100px;
+    }
+}
+
+@media(max-width: 768px){
+    .header__nav_left{
+        flex-direction: column;
+    }
+
+    .header__items{
+        grid-template-areas:
+        'one'
+        'two'
+        'three'
+        ;
+        justify-content: center;
+    }
+
+    .header__item2 {
+        grid-row: span 1;
+        padding-top: 50px;
+    }
+
+    .header__item2_bg{
+        flex-wrap: wrap;
+        gap: 1px;
+        flex-direction: row;
+    }
+
+    .header__item2_bg img {
+        max-width: 140px;
+        width: 100%;
+    }
+
+    .main__box_cards{
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .box__card img{
+        max-width: 130px;
+        width: 100%;
+    }
+
+    .box__card{
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .box__card_h3{
+        max-width: 80px;
+        width: 100%;
+        font-size: 15px;
+        padding: 8px 27px;
+    }
+
+    .main__box_cards {
+        grid-template-columns: repeat(2,255px);
+    }
+
+    .box__card_icon{
+        gap: 5px;
+        right: 10px;
+        top: 10px;
+    }
+
+    .box__card_icon img{
+        padding: 10px;
+    }
+
+    .box__card_text{
+        font-size: 17px;
+    }
+
+    .box__card_h2{
+        font-size: 15px;
+    }
+
+    .footer__box{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box__list_left{
+        align-items: center;
+    }
+    
+    .box__list_rigth{
+        align-items: center;
+    }
+
+    .footer__box_title{
+        align-items: center;
+    }
+
+    .footer__box_item{
+        align-items: center;
+    }
+
+    .footer__box_text{
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){
+    .header__nav_list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__box_cards{
+        grid-template-columns: 255px;       
+    }
+
+    .header__item1_bg{
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+
+    .header__item1_title{
+        padding-left: 0;
+    }
+
+    .header__items{
+        grid-template-columns: 300px;
+    }
+
+    .header__item3_bg{
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 15px;
+    }
+
+    .item__left,
+    .item__rigth{
+        padding: 90px 10px;
+    }
+
+    .item__left_h4,
+    .item__rigth_h4{
+        font-size: 17px;
+    }
+
+    .item__left_watch,
+    .item__rigth_watch{
+        bottom: 30px;
+        left: 30px;
+    }
+}
